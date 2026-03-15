@@ -23,4 +23,13 @@ public class ProductService {
     public List<Product> listProducts(){
     return repository.findAll();
     }
+
+    public Product updateQuantity(Long id, int quantity){
+
+        Product product = repository.findById(id).orElseThrow();
+
+        product.setQuantity(quantity);
+
+        return repository.save(product);
+        }
 }
