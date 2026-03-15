@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: sn.isi.l3gl.core.productcore.ProductCoreApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.033 s -- in sn.isi.l3gl.core.productcore.ProductCoreApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.951 s -- in sn.isi.l3gl.core.productcore.ProductCoreApplicationTests
