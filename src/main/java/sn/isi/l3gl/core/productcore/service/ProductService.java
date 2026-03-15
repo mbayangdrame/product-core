@@ -32,4 +32,12 @@ public class ProductService {
 
         return repository.save(product);
         }
+
+        public long countLowStockProducts(){
+
+        return repository.findAll()
+                .stream()
+                .filter(p -> p.getQuantity() <= 5)
+                .count();
+        }
 }
